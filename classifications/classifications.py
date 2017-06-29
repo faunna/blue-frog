@@ -18,6 +18,20 @@
 
 
 def plot_decision_regions(clf, X, y, fig=None, title='', xlabel='', ylabel='', figsize=(8,6)):
+    
+    """ POSITIONAL AND OPTIONAL ARGUMENTS:
+        - clf: a trained classifier instance.
+        - X: the features of the dataset.
+        - y: the labels of the dataset.
+        - fig: the plt.figure() or axes to be used. If it is None, a nwe figure will be created
+        - title: the plot's title.
+        - xlabel: the label of the x axis.
+        - ylabel: the label of the x axis.
+        - figsize: if fig=None, the size of the figure to be created
+    
+    
+    
+    """
   
  from matplotlib.colors import ListedColormap
     cmap_light = ListedColormap(list(reversed(['yellowgreen', 'darkseagreen', 'lightgray'])))
