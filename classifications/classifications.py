@@ -1,4 +1,4 @@
-*\
+"""
     Copyright (C) 2017. faunna
 
     This program is free software: you can redistribute it and/or modify
@@ -14,7 +14,7 @@
     You should have received a copy of the GNU Affero General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
     This function is strongly based on http://scikit-learn.org/stable/auto_examples/svm/plot_iris.html
-*/
+"""
 
 
 def plot_decision_regions(clf, X, y, fig=None, title='', xlabel='', ylabel='', figsize=(8,6)):
