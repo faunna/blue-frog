@@ -1,5 +1,5 @@
 # blue-frog repository
-Useful stuff for machine learning with NumPy, Pandas and Scikit- Learn
+Useful stuff for machine learning with NumPy, Pandas and Scikit- Learn.. and R.
 
 This repository contains python files with useful functions or classes to handle machine learning models.
 Under this wide assumption, all your ideas, suggestions and contributions are really welcome. Our aim is just to learn, share and enjoy.
